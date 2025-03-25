@@ -11,6 +11,7 @@ This repository contains code for fine-tuning a language model (LLM) for spam de
 - [Model Configuration](#model-configuration)
 - [Training](#training)
 - [Inference](#inference)
+- [Acknowledgements](#Acknowledgements)
 
 ## Installation
 
@@ -56,3 +57,10 @@ The notebook includes code for loading the dataset, preprocessing the data, and 
 The notebook demonstrates how to generate text samples using the fine-tuned model. The following functions are provided for inference:
 1. **generate_text_simple**: Generates text by predicting the next token based on the context.
 2. **generate**: Generates text with additional options for top-k sampling and temperature scaling.
+
+## Acknowledgements 
+
+This project would not have been possible without the following resources:
+- **GPT-2 Model**: I used the GPT-2 model architecture provided by OpenAI. You can learn more about GPT-2 and access the models at [OpenAI's GPT-2 page](https://openai.com/research/gpt-2).
+- **YouTube Tutorials**: The concepts and implementation strategies for this project were inspired by tutorials from the [Vizuara](https://www.youtube.com/@vizuara).
+
