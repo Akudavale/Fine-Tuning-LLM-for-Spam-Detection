@@ -1,0 +1,6 @@
+*.pth
+*.zip
+*.csv
+sms_spam_collection/
+gpt2/
+__pycache__/
