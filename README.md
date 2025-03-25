@@ -11,7 +11,6 @@ This repository contains code for fine-tuning a language model (LLM) for spam de
 - [Model Configuration](#model-configuration)
 - [Training](#training)
 - [Inference](#inference)
-- [License](#license)
 
 ## Installation
 
@@ -32,16 +31,19 @@ jupyter notebook Fine-Tuning LLM for spam classification model.ipynb
 Fine-Tuning LLM for spam classification model.ipynb: Jupyter notebook containing the code for fine-tuning the GPT-2 model and performing spam classification.
 requirements.txt: List of required Python packages.
 
+## Dataset
+Almeida, T. & Hidalgo, J. (2011). SMS Spam Collection [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CC84.
+
 ## Model Configuration
 The GPT-2 model is configured with the following settings:
 
-Vocabulary size: 50257
-Context length: 1024
-Embedding dimension: 768
-Number of attention heads: 12
-Number of layers: 12
-Dropout rate: 0.1
-Query-key-value bias: False
+1. **Vocabulary size**: 50257
+2. **Context length**: 1024
+3. **Embedding dimension**: 768
+4. **Number of attention heads**: 12
+5. **Number of layers**: 12
+6. **Dropout rate**: 0.1
+7. **Query-key-value bias**: False
 
 ## Training
 The notebook includes code for loading the dataset, preprocessing the data, and fine-tuning the GPT-2 model on the spam classification task. The training process involves:
