@@ -19,18 +19,12 @@ This repository contains code for fine-tuning a language model (LLM) for spam de
    ```sh
    git clone https://github.com/Akudavale/Fine-Tuning-LLM-for-Spam-Detection.git
    cd Fine-Tuning-LLM-for-Spam-Detection
-2. Create a virtual environment and activate it:
-   python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-3. Install the required packages:
-  pip install -r requirements.txt
 
 ## Usage
 jupyter notebook Fine-Tuning LLM for spam classification model.ipynb
 
 ## Project Structure
 Fine-Tuning LLM for spam classification model.ipynb: Jupyter notebook containing the code for fine-tuning the GPT-2 model and performing spam classification.
-requirements.txt: List of required Python packages.
 
 ## Dataset
 Almeida, T. & Hidalgo, J. (2011). SMS Spam Collection [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CC84.
